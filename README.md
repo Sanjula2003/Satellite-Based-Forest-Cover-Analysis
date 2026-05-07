@@ -4,6 +4,8 @@
 
 https://YOUR-STREAMLIT-LINK.streamlit.app
 
+The full dataset contains 581,012 records. For faster cloud deployment, a 50,000-record sample was used in the deployed dashboard.
+
 ## Project Overview
 
 This project demonstrates the use of machine learning and GIS-related environmental variables for forest cover classification and environmental analysis.

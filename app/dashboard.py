@@ -27,7 +27,8 @@ current_dir = os.path.dirname(__file__)
 data_path = os.path.join(current_dir, "..", "data", "covtype.csv")
 
 # Load dataset
-df = pd.read_csv(data_path)
+
+df = pd.read_csv(data_path).sample(50000, random_state=42)
 
 # Display dataset shape
 st.subheader("Dataset Information")

@@ -5,6 +5,17 @@ https://sanjula2003-satellite-based-forest-cover-an-appdashboard-ymelsr.streamli
 
 The full dataset contains 581,012 records. For faster cloud deployment, a 50,000-record sample was used in the deployed dashboard.
 
+## Dashboard Screenshots
+
+### Dashboard Overview
+![Dashboard Overview](screenshots/Dashboard HomePage.png)
+
+### Data Visualizations
+![Data Visualizations](screenshots/Elevation Chart.png)
+
+### Feature Importance
+![Feature Importance](screenshots/Feature Importance Chart.png)
+
 ## Project Overview
 
 This project demonstrates the use of machine learning and GIS-related environmental variables for forest cover classification and environmental analysis.

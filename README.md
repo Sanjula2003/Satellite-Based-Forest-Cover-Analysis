@@ -1,8 +1,7 @@
 # Satellite-Based Forest Cover Analysis Dashboard
 
 ## Live Dashboard
-
-[https://YOUR-STREAMLIT-LINK.streamlit.app](https://sanjula2003-satellite-based-forest-cover-an-appdashboard-ymelsr.streamlit.app/)
+https://sanjula2003-satellite-based-forest-cover-an-appdashboard-ymelsr.streamlit.app/
 
 The full dataset contains 581,012 records. For faster cloud deployment, a 50,000-record sample was used in the deployed dashboard.
 

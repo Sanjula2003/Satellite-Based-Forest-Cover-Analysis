@@ -8,13 +8,13 @@ The full dataset contains 581,012 records. For faster cloud deployment, a 50,000
 ## Dashboard Screenshots
 
 ### Dashboard Overview
-![Dashboard Overview](screenshots/Dashboard HomePage.png)
+![Dashboard Overview](screenshots/dashboard_homepage.png)
 
 ### Data Visualizations
-![Data Visualizations](screenshots/Elevation Chart.png)
+![Data Visualizations](screenshots/elevation_chart.png)
 
 ### Feature Importance
-![Feature Importance](screenshots/Feature Importance Chart.png)
+![Feature Importance](screenshots/feature_importance_chart.png)
 
 ## Project Overview
 

@@ -1,49 +1,92 @@
 # Satellite-Based Forest Cover Analysis Dashboard
 
 ## Live Dashboard
+
 https://sanjula2003-satellite-based-forest-cover-an-appdashboard-ymelsr.streamlit.app/
 
-The full dataset contains 581,012 records. For faster cloud deployment, a 50,000-record sample was used in the deployed dashboard.
+---
 
-## Dashboard Screenshots
+# Project Overview
+
+This project demonstrates the application of Machine Learning and GIS-related environmental analysis techniques for forest cover classification using geographical and terrain-based variables.
+
+A Random Forest classification model was developed using the Forest Cover Type dataset to classify forest cover categories based on environmental and geospatial attributes such as elevation, slope, hillshade, hydrology distance, roadway distance, and fire-point distance.
+
+An interactive Streamlit dashboard was also developed to visualize environmental patterns, model performance, and feature importance analysis.
+
+The project was developed as part of a GIS and Data Science portfolio focused on environmental monitoring and geospatial intelligence applications.
+
+---
+
+# Dashboard Screenshots
 
 ### Dashboard Overview
+
 ![Dashboard Overview](screenshots/dashboard_homepage.png)
 
-### Data Visualizations
+### Elevation Analysis
+
 ![Data Visualizations](screenshots/elevation_chart.png)
 
-### Feature Importance
+### Feature Importance Analysis
+
 ![Feature Importance](screenshots/feature_importance_chart.png)
-
-## Project Overview
-
-This project demonstrates the use of machine learning and GIS-related environmental variables for forest cover classification and environmental analysis.
-
-A Random Forest classification model was developed using the Forest Cover Type dataset to predict forest cover categories based on geographical and environmental features such as elevation, slope, hillshade, soil type, and hydrology distance.
-
-The project also includes an interactive Streamlit dashboard for visualization and analysis.
 
 ---
 
 # Objectives
 
 * Perform exploratory data analysis on environmental GIS datasets
-* Visualize forest cover distributions and terrain-related features
-* Build a machine learning classification model
-* Analyze feature importance in environmental prediction
-* Develop an interactive dashboard for visualization
+* Analyze terrain and geographical variables affecting forest cover
+* Build a machine learning classification model for forest cover prediction
+* Identify important environmental features influencing classification
+* Develop an interactive dashboard for environmental data visualization
+* Demonstrate practical GIS-related analytical workflows
+
+---
+
+# Dataset Information
+
+Dataset:
+
+* Forest Cover Type Dataset
+
+Total Records:
+
+* 581,012
+
+Deployment Dataset Size:
+
+* 50,000 sample records used for cloud deployment optimization
+
+Target Variable:
+
+* Cover_Type
+
+Key Features:
+
+* Elevation
+* Aspect
+* Slope
+* Hillshade
+* Hydrology Distance
+* Roadway Distance
+* Fire Point Distance
+* Soil Type
 
 ---
 
 # Technologies Used
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Scikit-learn
-* Streamlit
+| Technology   | Purpose                             |
+| ------------ | ----------------------------------- |
+| Python       | Data analysis and development       |
+| Pandas       | Data processing                     |
+| NumPy        | Numerical computation               |
+| Matplotlib   | Data visualization                  |
+| Scikit-learn | Machine learning                    |
+| Streamlit    | Interactive dashboard               |
+| GitHub       | Version control and project hosting |
 
 ---
 
@@ -67,10 +110,11 @@ Top Important Features:
 
 # Dashboard Features
 
-* Dataset overview
-* Forest cover distribution visualization
-* Elevation analysis
-* Model accuracy evaluation
+* Interactive dashboard interface
+* Dataset preview and exploration
+* Forest cover type distribution visualization
+* Elevation distribution analysis
+* Machine learning model evaluation
 * Feature importance visualization
 
 ---
@@ -95,6 +139,48 @@ Top Important Features:
 
 ---
 
+# Installation Guide
+
+## Clone Repository
+
+```bash
+git clone https://github.com/Sanjula2003/Satellite-Based-Forest-Cover-Analysis.git
+```
+
+## Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## Run Dashboard
+
+```bash
+streamlit run app/dashboard.py
+```
+
+---
+
+# Future Improvements
+
+* Integrate real satellite imagery datasets
+* Add GIS map visualizations using Folium or GeoPandas
+* Implement advanced remote sensing analysis
+* Deploy deep learning models for land-cover classification
+* Add real-time environmental monitoring functionality
+
+---
+
+# Limitations
+
+* The deployed dashboard uses a reduced dataset sample for cloud optimization
+* The current project uses a public environmental dataset rather than real-time satellite feeds
+* GIS mapping layers are not yet integrated into the dashboard
+
+---
+
 # Conclusion
 
-This project demonstrates how machine learning and GIS-related environmental datasets can be used for forest monitoring and geospatial analysis. The developed dashboard provides an interactive platform for understanding forest cover classification and environmental feature importance.
+This project demonstrates how Machine Learning and GIS-related environmental datasets can be used for forest monitoring and geospatial analysis. The developed dashboard provides an interactive platform for understanding forest cover classification, environmental feature importance, and terrain-based predictive analysis.
+
+The project also demonstrates practical skills in data science workflow development, machine learning model implementation, dashboard deployment, and technical documentation.
